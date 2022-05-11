@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 25vh;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+
+}
+
+header nav h1{
+    margin: 50px 0px 50px;
+}
+
+header nav span{
+    opacity: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+
+main #btn{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    background-color: transparent;
+
+    border: 1px solid;
+}
